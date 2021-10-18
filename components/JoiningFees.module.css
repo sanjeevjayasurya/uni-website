@@ -1,0 +1,15 @@
+.image-container {
+  position: relative;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover {
+  width: 270px;
+  padding-left: 0px;
+  display: inline-block;
+}

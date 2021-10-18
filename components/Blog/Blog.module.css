@@ -1,0 +1,10 @@
+.header {
+  background: linear-gradient(65deg, #000 45%, #068e82 80%, #fff597 105%);
+  /* background-image: url('/images/t_and_c_header.svg'); */
+}
+
+@media screen and (min-width: 640px) {
+  .header {
+    background-position: 80%;
+  }
+}

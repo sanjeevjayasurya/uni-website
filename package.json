@@ -1,0 +1,60 @@
+{
+  "name": "uni-cards-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4000",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "cypress run"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint '*/**/*.{js,jsx}' --fix"
+    ]
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "1.0.15",
+    "@chakra-ui/react": "^1.6.3",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "axios": "^0.21.1",
+    "crypto": "^1.0.1",
+    "framer-motion": "^4",
+    "gsap": "^3.7.0",
+    "isomorphic-dompurify": "^0.14.0",
+    "next": "11.0.0",
+    "prop-types": "^15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.12.2",
+    "react-intersection-observer": "^8.32.0",
+    "react-query": "^3.17.2",
+    "storyblok-js-client": "^4.1.3",
+    "storyblok-react": "^0.1.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.3",
+    "@commitlint/config-conventional": "^12.1.3",
+    "@cypress/react": "^5.9.1",
+    "@cypress/webpack-dev-server": "^1.4.0",
+    "autoprefixer": "^10.3.6",
+    "cypress": "^7.6.0",
+    "eslint": "^7.30.0",
+    "eslint-config-next": "11.0.0",
+    "html-webpack-plugin": "5",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.0.0",
+    "postcss": "^8.3.8",
+    "prettier": "^2.3.2",
+    "tailwindcss": "^2.2.16",
+    "webpack": "5",
+    "webpack-dev-server": "3"
+  }
+}

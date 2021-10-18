@@ -1,0 +1,35 @@
+.mobile {
+  display: none;
+}
+.original {
+  display: block;
+}
+
+@media (max-width: 765px) {
+  .mobile {
+    display: block;
+  }
+  .original {
+    display: none;
+  }
+}
+
+.videoBackground {
+  background: linear-gradient(
+    45.89deg,
+    #000000 -14.81%,
+    rgba(0, 0, 0, 0.7) 30.9%,
+    rgba(0, 0, 0, 0) 70.7%
+  );
+}
+
+@media screen and (max-width: 320px) {
+  .heading {
+    font-size: 30px !important;
+    line-height: 1.2 !important;
+  }
+
+  .heading p {
+    font-size: 1rem !important;
+  }
+}
