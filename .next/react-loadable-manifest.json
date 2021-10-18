@@ -1,0 +1,72 @@
+{
+  "../components/index.js -> ./About": {
+    "id": "./components/About.js",
+    "files": [
+      "static/chunks/components_About_js.js"
+    ]
+  },
+  "../components/index.js -> ./Footer": {
+    "id": "./components/Footer.js",
+    "files": [
+      "static/chunks/components_Footer_js.js"
+    ]
+  },
+  "../components/index.js -> ./Header": {
+    "id": "./components/Header.js",
+    "files": [
+      "static/chunks/vendors-node_modules_next_link_js.js",
+      "static/chunks/components_Header_js.js"
+    ]
+  },
+  "../components/index.js -> ./Hero": {
+    "id": "./components/Hero.js",
+    "files": [
+      "static/chunks/components_Hero_js.js"
+    ]
+  },
+  "../components/index.js -> ./Layout": {
+    "id": "./components/Layout.js",
+    "files": [
+      "static/chunks/vendors-node_modules_styled-jsx_style_js.js",
+      "static/chunks/components_Layout_js.js"
+    ]
+  },
+  "../components/index.js -> ./MoreReason": {
+    "id": "./components/MoreReason.js",
+    "files": [
+      "static/chunks/components_MoreReason_js.js"
+    ]
+  },
+  "../components/index.js -> ./SEO": {
+    "id": "./components/SEO.js",
+    "files": [
+      "static/chunks/vendors-node_modules_next_head_js.js",
+      "static/chunks/components_SEO_js.js"
+    ]
+  },
+  "../components/index.js -> ./ScrollAnimation": {
+    "id": "./components/ScrollAnimation.js",
+    "files": [
+      "static/chunks/vendors-node_modules_gsap_dist_ScrollTrigger_js-node_modules_gsap_dist_gsap_js.js",
+      "static/chunks/components_ScrollAnimation_js.js"
+    ]
+  },
+  "../components/index.js -> ./Transparency": {
+    "id": "./components/Transparency.js",
+    "files": [
+      "static/chunks/components_Transparency_js.js"
+    ]
+  },
+  "../components/index.js -> ./Visa": {
+    "id": "./components/Visa.js",
+    "files": [
+      "static/chunks/components_Visa_js.js"
+    ]
+  },
+  "../node_modules/next/dist/client/next-dev.js -> ./dev/noop": {
+    "id": "./node_modules/next/dist/client/dev/noop.js",
+    "files": [
+      "static/chunks/node_modules_next_dist_client_dev_noop_js.js"
+    ]
+  }
+}
